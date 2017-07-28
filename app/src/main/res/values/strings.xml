@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">QR</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="scan_QR_code_button_text">Scan QR code</string>
+    <string name="generate_QR_code_button_text">Generate QR code</string>
+    <string name="show_saved_QR_codes_button_text">Show saved QR codes</string>
+
+    <string name="action_search">Search online for the content of the QR code</string>
+    <string name="generate_button_text">Generate</string>
+    <string name="save_button_text">Save</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="enter_name_warning">Name of a QR code must be (1 to 16) characters</string>
+    <string name="enter_content_warning">Can not generate a QR code from empty text</string>
+
+    <string name="generating_qr_code_activity_title">Generate QR Code</string>
+    <string name="generating_qr_code_activity_second_title">Generated QR Code</string>
+
+    <string name="saved_qr_codes_activity_title">Saved QR Codes</string>
+
+    <string name="qr_code_saved_successfully">QR code saved successfully</string>
+    <string name="error_saving_qr_code">QR code saved successfully</string>
+    <string name="error_inserting">Error inserting</string>
+
+    <string name="permission_alarm">Application needs the camera permission to scan the QR code</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="DialogTitle">Name the QR code</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

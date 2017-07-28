@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ahmed_moneeb.android.qr.GeneratingQRcodeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/generatedTxt_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/QR_reading_res_text_margin_sides"
+            android:layout_marginRight="@dimen/QR_reading_res_text_margin_sides"
+            android:layout_marginTop="@dimen/QR_reading_res_text_margin_top"
+            android:gravity="center"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/generate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/generatedTxt_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/generate_button_text" />
+    </RelativeLayout>
+
+</ScrollView>
+
+
